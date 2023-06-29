@@ -15,3 +15,5 @@
 - https://www.makeuseof.com/git-learn-interactive-resources/
 
 
+Kas ir ko?
+Vai kas ir mainījies???

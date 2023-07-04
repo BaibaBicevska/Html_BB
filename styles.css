@@ -1,0 +1,151 @@
+body {
+  margin: 10px;
+  padding: 10px;
+  background-color: lightgray;
+  
+}
+
+.wrapper {
+  display: flex;
+}
+
+.box {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(230, 232, 207);
+  display: inline-block;
+  text-align: center;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 32px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.koks {
+  padding-top: 35px;
+  padding-bottom: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 17px;
+  line-height: 18px;
+  background: #777;
+  font-size: 20px;
+}
+.flex-container {
+
+  display: flex;
+  flex-wrap: nowrap;
+ 
+ justify-content: center;
+}
+
+header {
+  padding-top: 35px;
+  padding-bottom: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 17px;
+  line-height: 18px;
+  background: #777;
+  font-size: 20px;
+}
+
+footer {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  background: #777;
+  color: white;
+  justify-content: center;
+}
+
+#plava {
+  display: flex;
+  flex-direction: row;
+}
+
+#vasara {
+  display: flex;
+  flex-direction: row;
+}
+
+.width100 {
+  wisth: 100%;
+}
+
+h1{
+  display: grid;
+}
+
+.flex {}
+
+.exercise {}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
